@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+}
+.header{
+    color: #ffffff;
+    background-color: #0375cb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;    
+}
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+.rap h1{
+    font-size: 40px;
+}
+.yoo p{
+    font-size: 20px;
+}
+.yoo{
+    height: 50vh;
+    background-color: #033465;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    gap: 10px;
+}
+.shop-button{
+    font-size: 15px;
+    padding: 10px 25px;
+    background-color: #eb6c20;
+    border-radius: 6px;
+    color: white;
+    border: 0;
+    outline: 0;
+}
+.product{
+    background-color: #f2f2f2;
+}
+.title{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.product-item-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+}
+.product-item{
+    height:200px;
+    width: 250px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.product-button{
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 25px;
+    background-color: #0375cb;
+    border-radius: 6px;
+    border: 0;
+    outline: 0;
+}
+footer{
+    background-color: #0375cb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 15vh;
+}

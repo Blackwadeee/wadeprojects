@@ -6,7 +6,7 @@
 body{
     color: white;
     font-family: "Montserrat", sans-serif;
-    background-color: #27160d;
+    background-color:  rgb(34, 10, 10);
 }
 .Firstpage{
     width: 100%;
@@ -16,17 +16,22 @@ body{
     align-items: center;
 }
 .box{
-    background-color:rgb(22, 43, 22);
+    background-color: rgb(10, 20, 9);
     width: 500px;
-    height: 400px;
+    height: 410px;
     display: grid;
     justify-content: baseline;
     align-items: center;
     flex-direction: column;
     padding: 20px;
+    border-radius: 15px;
 }
 .box h1{
     font-size: 35px;
+    text-align: center;
+}
+.box h6{
+    font-size: 15px;
     text-align: center;
 }
 .inputbox{
@@ -59,7 +64,10 @@ label{
 }
 button{
     width: 50%;
-    color: black;
+    color: white;
     font-family: "Montserrat", sans-serif;
     padding: 10px;
+    background-color: rgb(36, 14, 14);
+    border: none;
+    border-radius: 20px;
 }
